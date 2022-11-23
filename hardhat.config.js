@@ -10,8 +10,8 @@ module.exports = {
   networks: {
     hardhat: {},
     goerli: {
-      url: "https://mainnet.infura.io/v3/ad9d6169a94f49298cfa89190e5a498e",
-      accounts: [`0x${PRIVATE_KEY}`],
+      url: "https://eth-goerli.g.alchemy.com/v2/KB-zXuVB55Q77Upe0lINuASwq74pFhgH",
+      accounts: [`${process.env.REACT_APP_PRIVATE_KEY}`],
     },
   },
 };
